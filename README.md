@@ -232,37 +232,6 @@ Several limitations should be considered when interpreting the results:
 - Develop an interactive dashboard using Power BI.
 - Explore predictive modeling for accident severity as a separate extension.
 
-## ▶️ How to Run the Project
-
-### 1. Clone the Repository
-
-```bash
-git clone <your-repository-url>
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install pandas numpy matplotlib geopandas pyarrow jupyter
-```
-
-### 3. Prepare the Dataset
-
-Download the dataset and place the processed Parquet file in the project directory:
-
-```text
-US_Accidents_March23.parquet
-```
-
-The notebook currently reads this file directly.
-
-### 4. Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open `new_analysis.ipynb` and execute the cells sequentially.
 
 ## 👨‍💻 Author
 
